@@ -48,6 +48,8 @@ Una vez programado y montado el circuito, el ESP-01 hará lo siguiente:
 
 De esta forma, cuando encendamos el foco, nos podremos conectar a él y acceder directamente al mando de control remoto, que aparecerá automáticamente cuando nuestro dispositivo nos presente la opción de **iniciar sesión**: listo para usar, sin más pasos, ni claves, ni complicaciones; sin tener que instalar ningún tipo de software o “emparejarnos previamente mediante un PIN” (como ocurre con bluetooth).
 
+[![haz clic para ver el video](fotos/final.jpg)](fotos/final.mp4)
+
 ## Costes
 El coste total fue inlcuso inferior al límite autopropuesto: aproximadamente 1.5€ finalmente.
 
