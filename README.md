@@ -1,7 +1,7 @@
 # focoIR / focoWiFi
 Proyecto de **reconversión de un foco RGB:** el mando a distancia IR se perdió y la opción más sencilla fue convertirlo a WiFi y manejarlo desde un móvil.
 
-![The stopwach with the mBot behind](doc/focoir.png)
+![Cartel de presentación](doc/focoir.png)
 
 ## Cómo
 El proceso supuso infinidad de tareas, pruebas y ensayos, pero básicamente se hizo en tres partes (de forma no del todo ordenada 😅):
