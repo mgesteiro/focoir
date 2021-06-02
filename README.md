@@ -30,7 +30,7 @@ Finalmente opté por usar un [ESP-01](https://www.esp8266.com/wiki/doku.php?id=e
 ¿Por qué esta solución? Por varias razones:
   * El ESP-01 es (muy) pequeño, genial para embeber dentro del foco, pero no tanto por la falta de pines I/O, lo que impide poder sustituir completamente la electrónica original (aunque suficientes para simular el receptor IR).
   * Por familiaridad: de otros proyectos anteriores ([MUWi](https://github.com/mgesteiro/escornabot-MUWi)) ya tenía experiencia con el ESP-01.
-  * Por la biblioteca [IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266): gracias a [David Conran](https://github.com/crankyoldgit) por la funcionalidad [*bool inverted*](https://github.com/crankyoldgit/IRremoteESP8266/blob/master/src/IRsend.cpp#L37), que al final resultó clave para la solución.
+  * Por la biblioteca [IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266): gracias a [David Conran](https://github.com/crankyoldgit) por la funcionalidad [*bool inverted*](https://github.com/crankyoldgit/IRremoteESP8266/blob/master/src/IRsend.cpp#L28), que al final resultó clave para la solución.
   * Porque era un desafío en el que **el objetivo era divertirse y aprender**, y el *camino fácil* no es tan divertido ni formativo como el difícil 😉
 
 Antes de realizar el montaje físico, deberías programar el ESP-01 con el firmware de la carpeta [código](src/): utiliza el programador y el IDE de Arduino siguiendo [esta instrucciones](https://mgesteiro.com/articles/muwi/#programar). El funcionamiento del firmware está descrito en el apartado siguiente.
